@@ -20,12 +20,13 @@ module.exports = {
         // => @media (min-width: 1536px) { ... }
       }, 
       colors: {
-        "gm-picotee-blue": "rgba(44, 39, 133, 1)",
-        "gm-dark-slate-blue": "rgba(76, 63, 134, 1)",
-        "gm-midnight-blue": "rgba(40, 32, 107, 1)",
-        "gm-turquoise-green": "rgba(158, 206, 180, 1)",
-        "gm-pale-spring-bud": "rgba(254, 193, 3, 1)",
-        "gm-pale-rose": "#a93969",
+        "gm-blackblue": "#09081A",
+        "gm-lblue": "#084D73",
+        "gm-dblue": "#062345",
+        "gm-salmon": "#FE7066",
+        "gm-llblue": "#A3CDF2",
+
+       
       },
     },
   },
