@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}, ./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
       screens: {
@@ -22,13 +22,20 @@ module.exports = {
       colors: {
         "gm-blackblue": "#09081A",
         "gm-lblue": "#084D73",
-        "gm-dblue": "#062345",
-        "gm-salmon": "#FE7066",
+        "gm-dblue": "rgb(255 115 179)",
+        "gm-phink": "#FE7066",
         "gm-llblue": "#A3CDF2",
-
-       
       },
+
+      fontFamily: {
+        'bebas': ['Bebas Neue', 'sans'],
+      },
+      
+      
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+    require('@tailwindcss/typography'),
+  ],
 };
