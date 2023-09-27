@@ -25,6 +25,7 @@ module.exports = {
         "gm-dblue": "rgb(255 115 179)",
         "gm-phink": "#FE7066",
         "gm-llblue": "#A3CDF2",
+        "pinkki": "#FE7066",
       },
 
       fontFamily: {
